@@ -1,0 +1,110 @@
+{
+    "0": 
+    [
+ 
+       {
+          "id": "0",
+          "direction" : false,
+          "companyName": "Company Name",
+          "taxNumber": "Tax Number",
+          "taxOffice": "Tax Office",
+          "invoiceCount": "Count of Invoice",
+          "contactNumber": "Contact Number",
+          "edit" : "Edit",
+          "detail" : "Detail",
+          "delete" : "Delete",
+          "customerList" : "Customer List",
+          "newCustomer" : "New Customer",
+          "customerDetail" : "Customer Detail",
+          "login" : "login",
+          "userName" : "UserName",
+          "password" : "Password",
+          "close" : "Close",
+          "save" : "Save",
+          "update" : "Update",
+          "editCustomer" : "Edit Customer",
+          "warning" : "You entered the wrong username or password."
+       }
+    ],
+    "1": 
+    [
+ 
+        {
+           "id": "1",
+           "direction" : false,
+           "companyName": "Firma Adı",
+           "taxNumber": "Vergi numarası",
+           "taxOffice": "Vergi Dairesi",
+           "invoiceCount": "Fatura Sayısı",
+           "contactNumber": "İletişim numarası",
+           "edit" : "Düzenle",
+            "detail" : "Detay",
+            "delete" : "Sil",
+            "customerList" : "Müşteri Listesi",
+          "newCustomer" : "Yeni Müşteri",
+          "customerDetail" : "Müşteri Detay",
+          "login" : "Giriş",
+          "userName" : "Kullanıcı Adı",
+          "password" : "Şifre",
+          "close" : "Kapat",
+          "save" : "Kaydet",
+          "update" : "Güncelle",
+          "editCustomer" : "Müşteri Bilgileri Güncelle",
+          "warning" : "Kullanıcı adı yada şifreyi yanlış girdiniz."
+        }
+     ],
+     "2": 
+     [ 
+        {
+           "id": "2",
+           "direction" : false,
+           "companyName": "公司名称",
+           "taxNumber": "税号",
+           "taxOffice": "税务局",
+           "invoiceCount": "发票数量",
+           "contactNumber": "联系电话",
+           "edit" : "编辑",
+          "detail" : "细节",
+          "delete" : "删除",
+          "customerList" : "客户名单",
+          "newCustomer" : "新客户",
+          "customerDetail" : "客户详情",
+          "login" : "登录",
+          "userName" : "用户名",
+          "password" : "密码",
+          "close" : "关",
+          "save" : "节省",
+          "update" : "更新",
+          "editCustomer" : "编辑客户",
+          "warning" : "您输入了错误的用户名或密码"
+        }
+     ],
+     "3": 
+     [
+ 
+        {
+           "id": "3",
+           "direction" : true,
+           "companyName": "שם החברה",
+           "taxNumber": "מספר מס",
+           "taxOffice": "משרד המס",
+           "invoiceCount": "ספירת החשבונית",
+           "contactNumber": "מספר איש קשר",
+           "edit" : "לַעֲרוֹך",
+          "detail" : "פרט",
+          "delete" : "לִמְחוֹק",
+          "customerList" : "רשימת לקוחות",
+          "newCustomer" : "לקוח חדש",
+          "customerDetail" : "פרטי לקוח",
+          "login" : "התחברות",
+          "userName" : "שם משתמש",
+          "password" : "סיסמה",
+          "close" : "סגור",
+          "save" : "להציל",
+          "update" : "עדכון",
+          "editCustomer" : "ערוך לקוח",
+          "warning" : "הזנת שם משתמש או סיסמה שגויים"
+        }
+     ]
+
+ }
