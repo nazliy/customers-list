@@ -12,7 +12,7 @@ const Customers = () => {
   const [sort, setSort] = useState(true)
 
   const [editData, setEditData] = useState({companyName:'',taxNumber:'', taxOffice:'', invoiceCount:'', contactNumber:''})
-  const {customer, loading, searchData} = useSelector(state => state.customers) 
+  const {customer, loading, searchMsg} = useSelector(state => state.customers) 
   const {language} = useSelector(state => state.language)     
   const dispatch = useDispatch()  
  
@@ -122,7 +122,7 @@ const Customers = () => {
         {
           loading && (
             <div className='row text-center mt-3'> 
-              <p>Yükleniyor...</p>
+              <p>{language[0].loading}</p>
             </div>
           )
         }
@@ -131,6 +131,13 @@ const Customers = () => {
         }
         {
           editModal && <EditModal  setEditModal={setEditModal} editData={editData} />
+        }
+        {
+          searchMsg && (
+            <div className='row text-center mt-3'> 
+              <p> {language[0].searchWarning}</p>
+            </div>
+          )
         }
     </div>
   )

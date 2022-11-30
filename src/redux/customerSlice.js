@@ -8,6 +8,7 @@ const initialState = {
     detailCustomer : [],
     loading : false,
     showModal : false,
+    searchMsg : false
 }
 
 export const fetchDataCustomers = createAsyncThunk('customers/fetchDataCustomers', async () => {
@@ -68,7 +69,9 @@ export const customers = createSlice({
         searchItem : (state,action) => {            
             state.searchData = action.payload
             state.customer = state.customer.filter(item => item.companyName === state.searchData || item.taxNumber === state.searchData )
-           
+           if(!state.customer.length){
+                state.searchMsg = true
+           }
         },
         sortByItemAZ : (state, action) => {
             state.customer = state.customer.sort((a, b) =>  a.companyName.localeCompare(b.companyName))           

@@ -23,7 +23,9 @@
           "save" : "Save",
           "update" : "Update",
           "editCustomer" : "Edit Customer",
-          "warning" : "You entered the wrong username or password."
+          "warning" : "You entered the wrong username or password.",
+          "searchWarning" : "No registered customers found.",
+          "loading" : "Loading..."
        }
     ],
     "1": 
@@ -50,7 +52,9 @@
           "save" : "Kaydet",
           "update" : "Güncelle",
           "editCustomer" : "Müşteri Bilgileri Güncelle",
-          "warning" : "Kullanıcı adı yada şifreyi yanlış girdiniz."
+          "warning" : "Kullanıcı adı yada şifreyi yanlış girdiniz.",
+          "searchWarning" : "Kayıtlı müşteri bulunamadı.",
+          "loading" : "Yükleniyor..."
         }
      ],
      "2": 
@@ -76,7 +80,9 @@
           "save" : "节省",
           "update" : "更新",
           "editCustomer" : "编辑客户",
-          "warning" : "您输入了错误的用户名或密码"
+          "warning" : "您输入了错误的用户名或密码",
+          "searchWarning" : "未找到注册客户。",
+          "loading" : "加载中..."
         }
      ],
      "3": 
@@ -103,7 +109,9 @@
           "save" : "להציל",
           "update" : "עדכון",
           "editCustomer" : "ערוך לקוח",
-          "warning" : "הזנת שם משתמש או סיסמה שגויים"
+          "warning" : "הזנת שם משתמש או סיסמה שגויים",
+          "searchWarning" : "לא נמצאו לקוחות רשומים.",
+          "loading" : "טוען..."
         }
      ]
 
